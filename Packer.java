@@ -13,7 +13,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class MarvellousPacker
+public class Packer
 {
     FileOutputStream outstream = null;//characteristics of the class 
     String ValidExt[] = {".txt",".c",".java",".cpp",".php"};//characteristics of the class 
@@ -21,9 +21,9 @@ public class MarvellousPacker
  
     public static void main(String are[]) throws Exception 
     {
-        MarvellousPacker obj = new MarvellousPacker("D:\\Mproject\\DemoX","combine.txt");
+        Packer obj = new Packer("D:\\Mproject\\DemoX","combine.txt");
     }
-    public MarvellousPacker(String src, String Dest) throws Exception
+    public Packer(String src, String Dest) throws Exception
     {
         File outfile =new File(Dest);//combine.txt create zali
         File infile = null;      //reference for next code
