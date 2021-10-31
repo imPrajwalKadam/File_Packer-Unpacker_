@@ -21,7 +21,7 @@ public class Packer
  
     public static void main(String are[]) throws Exception 
     {
-        Packer obj = new Packer("D:\\Mproject\\DemoX","combine.txt");
+        Packer obj = new Packer("C:\\Users\\atharva\\Desktop\\git_Repo\\File_Packer-Unpacker_\\Demo","combine.txt");
     }
     public Packer(String src, String Dest) throws Exception
     {
