@@ -84,7 +84,7 @@ public void Pack(String filePath)//read that data
             
             File fobj = new File(filePath);
             String Header = filePath+" "+fobj.length();
-            for (int i = Header.length(); i < 100; i++)
+            for (int i = Header.length(); i < 100; i++)     //100 bytes cha header write kela
             Header += " ";
             
             temp = Header.getBytes();
